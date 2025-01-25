@@ -1,13 +1,5 @@
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header nav a{
-    padding: auto;
-    margin: auto;
-    
+hr{
+    width: 90%;
 }
 
 
@@ -43,6 +35,8 @@ header nav a{
 
 
 
+
+
 #Competences article {
     display: grid;
     grid-template-columns: repeat(6, minmax(0, 1fr));
@@ -71,4 +65,9 @@ header nav a{
 
     padding: 10px;
     margin: 10px;
+}
+
+
+footer{
+    text-align: center;
 }
