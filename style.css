@@ -1,6 +1,6 @@
 body{
     background-color: #92ad6e;
-    font-family: 'Open sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 17px;
     margin: 0;
     padding: 0;
@@ -14,7 +14,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     position: fixed;
     backdrop-filter: blur(15px);
     top: 0;
@@ -46,6 +45,18 @@ header nav a{
     margin-left: 2px;
     margin-right: 2px;
 
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #586843;
+   
+}
+
+footer div{
+    width: 750px;
+    text-align: center;
 }
 
 
