@@ -1,3 +1,17 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    padding: auto;
+    margin: auto;
+    
+}
+
+
+
 .avatar{
     width: 420px;
     height: 350px;
@@ -44,4 +58,17 @@
 #Competences img{
     max-width: 70px;
     max-height: 70px;
+}
+
+#Contact div{
+    display: flex;
+    justify-content: center;
+}
+
+#Contact img{
+    max-width: 50px;
+    max-height: 50px;
+
+    padding: 10px;
+    margin: 10px;
 }
