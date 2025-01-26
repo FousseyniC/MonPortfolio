@@ -2,13 +2,48 @@ hr{
     width: 90%;
 }
 
-#Top{
-    background-image: url(img/fond1);
+/*#Top{
+    background-image: ;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     height: 100vh;
     color: white;
+    
+    
+}*/
+
+section h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.info {
+    margin: 0px 100px 0px 100px;
+}
+
+#Top{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url(img/developpement-web.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    
+}
+
+
+#Top-content{
+    font-size: 45px;
+    margin-left: 50px;
+    color : white;
     
 }
 
@@ -20,9 +55,10 @@ hr{
     margin: 10px;
 }
 
-#A-propos{
+#A-propos div article{
     display: flex;
     align-items: center;
+    flex-direction: row;
     justify-content: space-around;
 }
 
