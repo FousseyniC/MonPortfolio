@@ -2,6 +2,15 @@ hr{
     width: 90%;
 }
 
+#Top{
+    background-image: url(img/fond1);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    
+}
 
 
 .avatar{
@@ -29,12 +38,6 @@ hr{
     padding: 10px;
     margin: 10px;
 }
-
-
-
-
-
-
 
 
 #Competences article {
