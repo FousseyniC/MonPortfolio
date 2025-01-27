@@ -93,6 +93,37 @@ section h2 {
     max-height: 70px;
 }
 
+#cont-Projet{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+
+.box-projet {
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+.box-projet img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
 #Contact div{
     display: flex;
     justify-content: center;
