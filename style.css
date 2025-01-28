@@ -64,3 +64,25 @@ footer div{
 .CONSTRUCTION{
     text-align: center;
 }
+
+/* Responsive pour écrans mobiles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    header h2 {
+        margin: 10px 0;
+    }
+
+    header nav {
+        margin: 10px 0;
+    }
+
+    header nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}

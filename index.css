@@ -137,5 +137,96 @@ section h2 {
     margin: 10px;
 }
 
+/* Responsive pour écrans mobiles */
+@media (max-width: 768px) {
+    /* Ajustement du header */
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    header h2 {
+        margin: 10px 0;
+    }
+
+    header nav {
+        margin: 10px 0;
+    }
+
+    header nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    /* Ajustement de la section #Top */
+    #Top {
+        height: 50vh;
+    }
+
+    #Top-content {
+        font-size: 24px;
+        margin-left: 20px;
+    }
+
+    /* Ajustement de la section #A-propos */
+    #A-propos div article {
+        flex-direction: column;
+    }
+
+    #A-propos div p {
+        width: 100%;
+        height: auto;
+        font-size: 16px;
+    }
+
+    #A-propos img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    /* Ajustement de la section #Competences */
+    #Competences article {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    /* Ajustement de la section #Projets */
+    #cont-Projet {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .box-projet {
+        width: 90%;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    /* Ajustement de la section #Contact */
+    #Contact img {
+        max-width: 40px;
+        max-height: 40px;
+    }
+}
+
+/* Responsive pour tablettes */
+@media (max-width: 1024px) {
+    /* Ajustement de la section #Competences */
+    #Competences article {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    /* Ajustement de la section #Projets */
+    #cont-Projet {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .box-projet {
+        width: 90%;
+        height: auto;
+        margin: 10px auto;
+    }
+}
+
 
 
