@@ -34,23 +34,19 @@ section h2 {
     background-size: cover;
     background-position: center;
     display: flex;
-    /*justify-content: center;*/
     align-items: center;
-    
 }
-
 
 #Top-content{
     font-size: 45px;
     margin-left: 50px;
     color : white;
-    
 }
 
-
 .avatar{
-    width: 420px;
-    height: 350px;
+    width: 100%;
+    height: auto;
+    max-width: 420px;
     padding: 10px;
     margin: 10px;
 }
@@ -63,18 +59,17 @@ section h2 {
 }
 
 #A-propos div p{
-    height: 350px;
-    width: 650px;
+    height: auto;
+    width: 100%;
+    max-width: 650px;
     font-size: 18px;
     text-align: justify;
-
 }
 
 #A-propos article{
     padding: 10px;
     margin: 10px;
 }
-
 
 #Competences article {
     display: grid;
@@ -98,17 +93,16 @@ section h2 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-
 .box-projet {
     border-radius: 15px;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: 300px;
     box-shadow: 0px 0px 20px rgb(0, 0, 0);
     position: relative;
     background-color: rgba(0, 0, 0, 0);
     margin: 20px;
     padding: 10px;
-    
 }
 
 .box-projet img{
@@ -116,13 +110,6 @@ section h2 {
     height: 100%;
     border-radius: 15px;
 }
-
-
-
-
-
-
-
 
 #Contact div{
     display: flex;
@@ -132,7 +119,6 @@ section h2 {
 #Contact img{
     max-width: 50px;
     max-height: 50px;
-
     padding: 10px;
     margin: 10px;
 }
@@ -227,6 +213,3 @@ section h2 {
         margin: 10px auto;
     }
 }
-
-
-
