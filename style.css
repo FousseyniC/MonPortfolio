@@ -15,7 +15,6 @@ header{
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    /*backdrop-filter: blur(15px);*/
     top: 0;
     left: 0;
     width: 100%;
@@ -23,10 +22,7 @@ header{
     z-index: 1000;
     padding: 0px 20px 0px 20px;
     font-size: 22px;
-    /*box-shadow: 0px 0px 5px rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.2) !important*/
     background-color: white;
-    
 }
 
 header h2{
@@ -36,28 +32,24 @@ header h2{
 
 header nav{
     margin-right: 30px;
-    
 }
 
 header nav a{
-    padding: auto;
-    margin: auto;
     text-decoration: none;
     color: black;
     margin-left: 2px;
     margin-right: 2px;
-
 }
 
 footer{
     display: flex;
     justify-content: center;
     background-color: #517f78;
-   
 }
 
 footer div{
-    width: 750px;
+    width: 100%;
+    max-width: 750px;
     text-align: center;
 }
 
@@ -84,5 +76,9 @@ footer div{
     header nav a {
         display: block;
         margin: 5px 0;
+    }
+
+    footer div {
+        width: 90%;
     }
 }
