@@ -179,6 +179,12 @@ section h2 {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
+    #Competences img{
+        max-width: 30px;
+        max-height: 30px;
+    }
+    
+
     /* Ajustement de la section #Projets */
     #cont-Projet {
         grid-template-columns: repeat(1, minmax(0, 1fr));
