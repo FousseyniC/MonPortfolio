@@ -176,12 +176,12 @@ section h2 {
 
     /* Ajustement de la section #Competences */
     #Competences article {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     #Competences img{
-        max-width: 30px;
-        max-height: 30px;
+        max-width: 5%;
+        max-height: 5%;
     }
     
 
