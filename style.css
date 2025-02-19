@@ -74,7 +74,7 @@ footer div{
     z-index: 1;
     bottom: 105%; 
     left: 50%;
-    margin-left: -100px; 
+    margin-left: -100px; /* Use half of the width (120/2 = 60), to center it */
     opacity: 0;
     transition: opacity 0.3s;
 }
@@ -97,6 +97,9 @@ footer div{
 
 /* Responsive pour écrans mobiles */
 @media (max-width: 768px) {
+    section {
+        width: fit-content;
+    }
     header {
         flex-direction: column;
         height: auto;
