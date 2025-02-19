@@ -148,6 +148,16 @@ section h2 {
 
 /* Responsive pour écrans mobiles */
 @media (max-width: 768px) {
+    body{
+        font-size: 16px;
+    }
+
+    .info{
+        margin: 0px;
+        padding: 5px;
+    }
+
+
     header {
         flex-direction: column;
         height: auto;
@@ -169,7 +179,7 @@ section h2 {
 
     #Top-content {
         font-size: 24px;
-        margin-left: 20px;
+        /*margin-left: 20px;*/
     }
 
     #A-propos div article {
@@ -198,8 +208,15 @@ section h2 {
     }
 
     .box-projet {
-        width: 90%;
+        width: 50%;
+        height: 65%;
         margin: 10px auto;
+    }
+
+    .box-Formation{
+        width: 50%;
+        height: 65%;
+        margin: 10px auto;        
     }
 
     #Formation img {
@@ -223,7 +240,14 @@ section h2 {
     }
 
     .box-projet {
-        width: 90%;
+        width: 50%;
+        height: 65%;
         margin: 10px auto;
+    }
+
+    .box-Formation{
+        width: 50%;
+        height: 65%;
+        margin: 10px auto;        
     }
 }
