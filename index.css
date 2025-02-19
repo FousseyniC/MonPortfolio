@@ -150,6 +150,7 @@ section h2 {
 @media (max-width: 768px) {
     body{
         font-size: 16px;
+        width: 400px;
     }
 
     .info{
@@ -231,6 +232,10 @@ section h2 {
 
 /* Responsive pour tablettes */
 @media (max-width: 1024px) {
+    body{
+        font-size: 16px;
+        width: fit-content;
+    }
     #Competences article {
         grid-template-columns: repeat(4, 1fr);
     }
