@@ -110,7 +110,7 @@ footer div{
     header {
         flex-direction: column;
         height: auto;
-        padding: 10px;
+        padding: 0px;
     }
 
     header h2 {
